@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+    background-color: #FBA039;
+}
+
+p{
+    font-weight: 300;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p#negro{
+    color: black;
+}
+
+#info{
+    background-color: #FBA039;
+}
+.btn-sm {
+    background-color:#FAAF22;
+    border-color: transparent;
+    margin-left: 4rem;
+    margin-bottom: 2rem
+}
+
+
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;   
+}
+
+.jumbotron-heading {
+  font-weight: 700;
+}
+
+.jumbotron .container {
+  max-width: 80rem;
+}
+
+@media (min-width: 1200px) { .card-columns { column-count: 4; }}
+
+@media (max-width: 768px) { .card-columns { column-count: 1; }}
+
+#grupal{
+  margin:0 1rem;
+}
+
+.card{
+  border:none;
+  border-radius: 0;
+  background:#000000;
+}
+
+.card-img-top{
+  border-radius: 0;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .50rem;
+}
